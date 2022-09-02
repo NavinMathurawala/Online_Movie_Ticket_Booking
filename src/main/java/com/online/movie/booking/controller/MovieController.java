@@ -57,22 +57,13 @@ public class MovieController {
 	@GetMapping("/movies/theatres")
 	public Set<Theatre> getMoviesByDate(@RequestParam(required = true) String dateString) {
 
-
 		Set<Theatre> result = this.screeningService.getTheatreByDate(this.screeningService.parseDate(dateString));
-
 		return result;
 	}
 
 
 	@RequestMapping(value = "/movies/seats" , method = RequestMethod.POST)
 	public String bookSeats(@RequestBody MovieScreening movieBooking) {
-
-		LOGGER.info(movieBooking.getMovieName());
-
-		LOGGER.info(movieBooking.getTheatreName());
-		//LOGGER.info(movieBooking.getScreeningTime());
-
-		LOGGER.info(Integer.toString(movieBooking.getNumSeats()));
 
 		int bookedSeats = this.screeningService.getBookedSeats(movieBooking);
 		int totalSeats = this.screeningService.getTotalSeats(movieBooking);
