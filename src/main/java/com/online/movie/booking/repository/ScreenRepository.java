@@ -1,6 +1,6 @@
-package com.bezkoder.spring.mssql.repository;
+package com.online.movie.booking.repository;
 
-import com.bezkoder.spring.mssql.model.Screen;
+import com.online.movie.booking.model.Screen;
 
 import org.springframework.data.repository.CrudRepository;
 

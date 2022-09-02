@@ -1,4 +1,4 @@
-package com.bezkoder.spring.mssql.model;
+package com.online.movie.booking.model;
 
 public class MovieScreening {
     private String movieName;

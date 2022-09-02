@@ -1,6 +1,6 @@
-package com.bezkoder.spring.mssql.repository;
+package com.online.movie.booking.repository;
 
-import com.bezkoder.spring.mssql.model.Theatre;
+import com.online.movie.booking.model.Theatre;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.sql.Date;

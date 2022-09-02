@@ -1,13 +1,9 @@
-package com.bezkoder.spring.mssql.repository;
+package com.online.movie.booking.repository;
 
-import com.bezkoder.spring.mssql.model.Screening;
+import com.online.movie.booking.model.Screening;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-
-import java.sql.Date;
-import java.sql.Time;
-import java.util.List;
 
 @Repository
 public interface ScreeningRepository extends CrudRepository<Screening, Long> {

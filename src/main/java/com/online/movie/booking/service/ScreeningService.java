@@ -1,14 +1,13 @@
-package com.bezkoder.spring.mssql.service;
+package com.online.movie.booking.service;
 
 
-import com.bezkoder.spring.mssql.model.Movie;
-import com.bezkoder.spring.mssql.model.MovieScreening;
-import com.bezkoder.spring.mssql.model.Screening;
-import com.bezkoder.spring.mssql.model.Theatre;
-import com.bezkoder.spring.mssql.repository.MovieRepository;
-import com.bezkoder.spring.mssql.repository.ScreenRepository;
-import com.bezkoder.spring.mssql.repository.ScreeningRepository;
-import com.bezkoder.spring.mssql.repository.TheatreRepository;
+import com.online.movie.booking.model.MovieScreening;
+import com.online.movie.booking.model.Screening;
+import com.online.movie.booking.model.Theatre;
+import com.online.movie.booking.repository.MovieRepository;
+import com.online.movie.booking.repository.ScreenRepository;
+import com.online.movie.booking.repository.ScreeningRepository;
+import com.online.movie.booking.repository.TheatreRepository;
 import org.springframework.stereotype.Service;
 
 import java.text.DateFormat;

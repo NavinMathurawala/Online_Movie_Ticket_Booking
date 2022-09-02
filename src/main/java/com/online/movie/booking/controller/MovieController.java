@@ -1,14 +1,10 @@
-package com.bezkoder.spring.mssql.controller;
+package com.online.movie.booking.controller;
 
-import com.bezkoder.spring.mssql.model.Movie;
-import com.bezkoder.spring.mssql.model.MovieScreening;
-import com.bezkoder.spring.mssql.model.Screening;
-import com.bezkoder.spring.mssql.model.Theatre;
-import com.bezkoder.spring.mssql.repository.MovieRepository;
-import com.bezkoder.spring.mssql.repository.ScreenRepository;
-import com.bezkoder.spring.mssql.repository.ScreeningRepository;
-import com.bezkoder.spring.mssql.repository.TheatreRepository;
-import com.bezkoder.spring.mssql.service.ScreeningService;
+import com.online.movie.booking.model.Movie;
+import com.online.movie.booking.model.MovieScreening;
+import com.online.movie.booking.model.Theatre;
+import com.online.movie.booking.repository.MovieRepository;
+import com.online.movie.booking.service.ScreeningService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +13,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
-import javax.persistence.criteria.CriteriaBuilder;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.text.DateFormat;

@@ -1,4 +1,4 @@
-package com.bezkoder.spring.mssql;
+package com.online.movie.booking;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
