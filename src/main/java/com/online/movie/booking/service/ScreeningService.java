@@ -92,4 +92,8 @@ public class ScreeningService {
 
         return date;
     }
+
+    public void deleteMovie(String movieName) {
+        movieRepository.deleteById((movieName));
+    }
 }

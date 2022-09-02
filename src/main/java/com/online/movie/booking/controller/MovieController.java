@@ -79,4 +79,10 @@ public class MovieController {
 	}
 
 
+	@DeleteMapping("/deleteMovies")
+	public ResponseEntity<?> deleteMovieByName(@RequestParam(required = true) String movie_name) {
+		this.screeningService.deleteMovie(movie_name);
+		return ResponseEntity.noContent().build();
+	}
+
 }
