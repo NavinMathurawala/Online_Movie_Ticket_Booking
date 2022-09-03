@@ -14,3 +14,7 @@
 1) Java 8 , SpringBoot , MS SQL , 
 2) GIT - Code Maintaience
 3) Maven -Build
+
+Postman Collection :
+
+https://github.com/NavinMathurawala/Online_Movie_Ticket_Booking.git
