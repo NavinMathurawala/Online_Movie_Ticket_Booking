@@ -7,3 +7,10 @@
 3) Endpoint api/movies/seats --Books Seats
 
 4) Endpoint /api/deleteMovies  --Delete Movies
+
+
+# Technology Stack Used
+
+1) Java 8 , SpringBoot , MS SQL , 
+2) GIT - Code Maintaience
+3) Maven -Build
